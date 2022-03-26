@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<div class="container">
+    {% for post in object_list %}
+    <div class="post">
+        <!--post.titleという変数の展開(https://e-tec-memo.herokuapp.com/article/67/)-->
+        <p>タイトル：{{ post.title }}</p>
+        <p>メモ：{{ post.memo }}</p>
+        <p>------------------------</p>
+    </div>
+    {% endfor %}
+    <div class="form">
+        <a href="{% url 'form' %}">新規投稿</a>
+    </div>
+</div>
