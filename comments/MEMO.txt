@@ -1,0 +1,8 @@
+2022/03/07 投稿フォームの作成
+    参考(https://qiita.com/frosty/items/52a6d41c721c77a18e81)
+2022/03/07 gitアップロード(https://techacademy.jp/magazine/6235#ta-toc-4)
+    ローカルリポジトリをプッシュしてリモートリポジトリへ反映させる（git push）
+    ローカルリポジトリの変更を、GitHub上にあるリモートリポジトリに反映させるため、以下のコマンドを実行します。
+    git push origin master
+2022/03/27
+    gitに改めてリポジトリ作成
