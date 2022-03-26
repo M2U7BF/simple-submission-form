@@ -1,7 +1,7 @@
 from dataclasses import fields
 from django.views.generic import ListView, CreateView
 from django.urls import reverse_lazy
-from .models import PostModel
+from .models import *
 
 # CreateViewを継承しListClassを定義
 # CreateViewの役割 = 
